@@ -40,14 +40,12 @@ There are several reasons for our interest in generative models:
 - Generative models are excellent test of our ability to represent and manipulate high-dimensional probability distributions. High-dimensional probability distributions are important objects in math and engineering domains.
 - Using generative models which are based on time-series of data, we can simulate several possible futures, for a given situation. Using such models it is possible to train an agent to select the best possible action for a given situation, after examining several possible futures.
 - Generative models and especially GAN, can provide predictions on input with missing data. Modern models of supervised learning often requires large amount of data, which is usually hard to achieve. Generative models can be used to produce good result even if part (or even most) of the data is missing. This approach is called semi-supervised learning.
-- For many tasks, there are several possible solutions all are acceptable. Traditional algorithms uses Mean Square Error (MSE) since they are not able to learn from a model when there is more than a single correct answer. For example, a model which needs to predict the next frame of the following movie: 
-
-![](/files/slide08.png)
-
-In this example we try to predict the next frame of a 3D rotating head.
--- We use the left picture as the "ground truth" - or at least one of the "correct" results for reference.
--- The middle picture is an example for the MSE solution, in which the algorithm average all possible correct solutions. In this result we see that the eye and the ear of the head are blurred, since in every possible correct solution the location of the ear is different, so the average is actually erase the ear from the picture.
--- The right picture is a result of GAN
+- For many tasks, there are several possible solutions all are acceptable. Traditional algorithms uses Mean Square Error (MSE) since they are not able to learn from a model when there is more than a single correct answer. For example, a model which needs to predict the next frame of the below picture. In this example we try to predict the next frame of a 3D rotating head. 
+  - We use the left picture as the "ground truth" - or at least one of the "correct" results for reference.
+  - The middle picture is an example for the MSE solution, in which the algorithm average all possible correct solutions. In this result we see that the eye and the ear of the head are blurred, since in every possible correct solution the location of the ear is different, so the average is actually erase the ear from the picture.
+  - The right picture is a result of GAN
+  
+  ![](/files/slide08.png)
 
  
 
