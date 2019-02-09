@@ -45,9 +45,9 @@ There are several reasons for our interest in generative models:
 ![](/files/slide08.png)
 
 In this example we try to predict the next frame of a 3D rotating head.
-- We use the left picture as the "ground truth" - or at least one of the "correct" results for reference.
-- The middle picture is an example for the MSE solution, in which the algorithm average all possible correct solutions. In this result we see that the eye and the ear of the head are blurred, since in every possible correct solution the location of the eye is different, so the average is actually bluer the ear from the picture.
-- The right picture is a result of GAN
+-- We use the left picture as the "ground truth" - or at least one of the "correct" results for reference.
+-- The middle picture is an example for the MSE solution, in which the algorithm average all possible correct solutions. In this result we see that the eye and the ear of the head are blurred, since in every possible correct solution the location of the ear is different, so the average is actually erase the ear from the picture.
+-- The right picture is a result of GAN
 
  
 
