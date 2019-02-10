@@ -47,13 +47,14 @@ There are several reasons for our interest in generative models:
   
   ![](/files/slide08.png)
   
-- In some cases we are required to create realistic images from the same distributions as the input pictures. For example in "Single image super-resolution" we are required to create a high-resolution image from a low-resolution image. In fact, we are required to add information to the image which is not there in the first place. This is illustrated in the below picture:
-  - In the left picture we see the "original" picture in high-resolution. We down-sample this picture, in order to lower its resolution, and use various algorithms to reconstruct the original image.
-  - Bicubic is a simple interpolation which just expand the image. No sophisticated static method was used.
+- In some cases we are required to create realistic images from the same distributions as the input picture. For example in "Single image super-resolution" we are required to create a high-resolution image from a low-resolution image. In fact, we are required to add information to the image which is not there in the first place. This is illustrated in the below picture:
+  - The left picture is the "original" picture in high-resolution. This picture is down-sampled, in order to lower its resolution, and use various algorithms to reconstruct the original image.
+  - Bicubic is a simple interpolation which just expand the image. No sophisticated statistic method was used.
   - SRResNet is the output of a deep neural network which uses the MSE.
   - SRGAN is the output of a GAN network, which uses the pixel distribution of the low-resolution image to reconstruct the original picture.
   
   ![](/files/slide09.png)
+  
 
  
 
