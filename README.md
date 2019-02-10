@@ -17,7 +17,7 @@ The answer is that there is not such bird in the animal kingdom. No photographer
 But, what is a Generative model?
 
 ## Generative Models
-We will illustrate what is a generative model by the following toy example:
+A generative model can be illustrated by the following toy example:
 
 Given the following 3 dimensional color space
 
@@ -64,6 +64,10 @@ There are several reasons for our interest in generative models:
   
 - Image to image translation:
   ![](/files/slide12.png)
+  
+  
+## How do generative models work?
+Generative model is a type of Unsupervised Learning. One can think about generative models as the opposite of discriminative model. For example: discriminative model classifies an email as "Spam" or "not-Spam" based on statistic modeling of words. While generative model asks the opposite question: how can the algorithm generate an email which will look like a "Spam"? 
 
  
 
