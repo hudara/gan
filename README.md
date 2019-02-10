@@ -55,6 +55,10 @@ There are several reasons for our interest in generative models:
   
   ![](/files/slide09.png)
   
+- Realistic generation tasks:
+
+[![](/files/slide10.png)](https://youtu.be/9c4z6YsBGQ0 "Generative Visual Manipulation on the Natural Image Manifold")
+  
 
  
 
